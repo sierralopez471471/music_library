@@ -36,8 +36,8 @@ function App() {
   return (
     <div className="App">
 
-    {message}
-      <Router>
+    
+      {/* <Router>
         <Routes>
           <Route path="/" element={
             <Fragment>
@@ -48,7 +48,7 @@ function App() {
           <Route path="/album/:id" element={<AlbumView />} />
           <Route path="/artist/:id" element={<ArtistView />} />
         </Routes>
-      </Router>
+      </Router> */}
       <SearchContext.Provider value={{
         term: searchInput,
         handleSearch: handleSearch
